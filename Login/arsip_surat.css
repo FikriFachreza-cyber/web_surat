@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: #0066cc;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+th {
+    text-transform: uppercase;
+}
+
+.btn-view {
+    background-color: #0066cc;
+    color: white;
+    padding: 6px 12px;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+}
+
+.btn-view:hover {
+    background-color: #005bb5;
+}
+
+.btn-delete {
+    background-color: #ff4d4d; /* Warna merah */
+    color: white;
+    padding: 6px 12px;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+}
+
+.btn-delete:hover {
+    background-color: #e60000; /* Warna merah lebih gelap untuk efek hover */
+}
